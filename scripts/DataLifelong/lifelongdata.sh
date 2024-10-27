@@ -17,7 +17,7 @@ do
         --dataset ${DATASET} --lr 0.01 --batch-size ${BATCH} --iteration 5 --memory ${MEMORY} --device $DEVICE \
         --sample-rate ${SAMPLE} --seed $SEED --model ${MODEL} --jump ${JUMP} --optm ${OPT} --hidden 10 10 --drop 0 0
 done
-
+...
 BATCH=10
 DATASET=pubmed
 for SEED in 1 2 3
@@ -37,3 +37,4 @@ do
         --dataset ${DATASET} --lr 0.01 --batch-size ${BATCH} --iteration 5 --memory ${MEMORY} --device $DEVICE \
         --sample-rate ${SAMPLE} --seed $SEED --model ${MODEL} --jump ${JUMP} --optm ${OPT} --hidden 10 10 --drop 0 0
 done
+...
